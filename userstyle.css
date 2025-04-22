@@ -1,0 +1,197 @@
+/* ==UserStyle==
+@name           Soundcloud Light
+@namespace      github.com/InterstellarOne/Soundcloud-Light
+@version        0.1.0
+@description    Restores Soundcloud's now hidden light theme
+@author         Interstellar_One
+==/UserStyle== */
+
+@-moz-document url-prefix("https://soundcloud.com") {
+    :root {
+        --mui-palette-text-primary: #000;
+        --mui-palette-primary-main: #000;
+        --mui-palette-secondary-main: #545454;
+        --mui-palette-text-secondary: #666666;
+        --mui-palette-surface-main: #70707012
+    }
+    
+    .theme-dark {
+        --surface-color: #fff;
+  --surface-rgb: 255,255,255;
+  --primary-color: #121212;
+  --primary-rgb: 18,18,18;
+  --secondary-color: #666;
+  --secondary-rgb: 102,102,102;
+  --highlight-color: #f3f3f3;
+  --highlight-rgb: 243,243,243;
+  --link-color: #044dd2;
+  --link-rgb: 4,77,210;
+  --overlay-color: rgba(18,18,18,0.4);
+  --overlay-rgb: 18,18,18,0.4;
+  --imageBorder-color: rgba(18,18,18,0.15);
+  --imageBorder-rgb: 18,18,18,0.15;
+  --background-surface-color: #fff;
+  --background-highlight-color: #f3f3f3;
+  --font-sans-serif-family: var(--font-inter,SoundCloud Sans),system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI",Roboto,"Lucida Grande",sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  --font-monospace-family: "Monaco","Courier New",monospace;
+  --font-light-color: #fff;
+  --font-dark-color: #121212;
+  --font-special-color: #f50;
+  --font-error-color: #d61348;
+  --font-primary-color: #121212;
+  --font-secondary-color: #666;
+  --font-link-color: #044dd2;
+  --button-light-background-color: #fff;
+  --button-light-font-color: #121212;
+  --button-dark-background-color: #121212;
+  --button-dark-font-color: #fff;
+  --button-special-background-color: #f50;
+  --button-special-font-color: #fff;
+  --button-focused-box-shadow: 0 0 0 2px #044dd2 inset;
+  --button-disabled-opacity: 0.4;
+  --button-active-opacity: 0.4;
+  --button-primary-background-color: #121212;
+  --button-primary-font-color: #fff;
+  --button-primary-hover-font-color: hsla(0,0%,100%,0.4);
+  --button-primary-disabled-background-color: #121212;
+  --button-primary-disabled-font-color: #fff;
+  --button-primary-selected-background-color: #f3f3f3;
+  --button-primary-selected-font-color: #121212;
+  --button-primary-selected-hover-font-color: rgba(18,18,18,0.4);
+  --button-primary-selected-active-background-color: #f3f3f3;
+  --button-primary-selected-active-font-color: #121212;
+  --button-primary-loading-background-color: #121212;
+  --button-primary-loading-font-color: hsla(0,0%,100%,0.6);
+  --button-primary-loading-icon-color: #fff;
+  --button-primary-active-background-color: #121212;
+  --button-primary-active-font-color: #fff;
+  --button-secondary-background-color: #f3f3f3;
+  --button-secondary-font-color: #121212;
+  --button-secondary-hover-font-color: rgba(18,18,18,0.4);
+  --button-secondary-disabled-background-color: #f3f3f3;
+  --button-secondary-disabled-font-color: #121212;
+  --button-secondary-selected-background-color: #f3f3f3;
+  --button-secondary-selected-font-color: #f50;
+  --button-secondary-selected-hover-font-color: rgba(255,85,0,0.4);
+  --button-secondary-selected-active-background-color: #f3f3f3;
+  --button-secondary-selected-active-font-color: #f50;
+  --button-secondary-loading-background-color: #f3f3f3;
+  --button-secondary-loading-font-color: rgba(18,18,18,0.6);
+  --button-secondary-loading-icon-color: #121212;
+  --button-secondary-active-background-color: #f3f3f3;
+  --button-secondary-active-font-color: #121212;
+  --button-tertiary-background-color: #fff;
+  --button-tertiary-font-color: #121212;
+  --button-tertiary-hover-font-color: rgba(18,18,18,0.4);
+  --button-tertiary-disabled-background-color: #fff;
+  --button-tertiary-disabled-font-color: #121212;
+  --button-tertiary-selected-background-color: #fff;
+  --button-tertiary-selected-font-color: #f50;
+  --button-tertiary-selected-hover-font-color: rgba(255,85,0,0.4);
+  --button-tertiary-selected-active-background-color: #fff;
+  --button-tertiary-selected-active-font-color: #f50;
+  --button-tertiary-loading-background-color: #fff;
+  --button-tertiary-loading-font-color: rgba(18,18,18,0.6);
+  --button-tertiary-loading-icon-color: #121212;
+  --button-tertiary-active-background-color: #fff;
+  --button-tertiary-active-font-color: #121212;
+  --overlay-default-color: rgba(18,18,18,0.4);
+  --link-standard-color: #044dd2;
+  --link-standard-focus-outline: none;
+  --link-standard-focus-box-shadow: 0 0 0 2px #044dd2;
+  --link-standard-text-decoration: none;
+  --link-standard-active-color: rgba(4,77,210,0.6);
+  --link-standard-hover-color: #044dd2;
+  --link-standard-hover-text-decoration: underline;
+  --link-standard-border-radius: 4px;
+  --link-standard-disabled-color: rgba(4,77,210,0.6);
+  --link-primary-color: #121212;
+  --link-primary-focus-box-shadow: 0 0 0 2px #044dd2;
+  --link-primary-disabled-color: rgba(18,18,18,0.6);
+  --link-primary-active-color: rgba(18,18,18,0.6);
+  --link-primary-hover-color: rgba(18,18,18,0.4);
+  --link-primary-hover-text-decoration: none;
+  --link-primary-border-radius: 4px;
+  --link-secondary-color: #666;
+  --link-secondary-focus-box-shadow: 0 0 0 2px #044dd2;
+  --link-secondary-disabled-color: hsla(0,0%,40%,0.6);
+  --link-secondary-active-color: hsla(0,0%,40%,0.6);
+  --link-secondary-hover-color: hsla(0,0%,40%,0.4);
+  --link-secondary-hover-text-decoration: none;
+  --link-secondary-border-radius: 4px;
+  --tag-body-height: 24px;
+  --tag-body-padding: 2px 8px;
+  --tag-body-cursor: pointer;
+  --tag-body-border-radius: 100px;
+  --tag-body-user-select: none;
+  --tag-body-touch-callout: none;
+  --tag-body-white-space: nowrap;
+  --tag-body-hover-text-decoration: none;
+  --tag-disabled-opacity: 60%;
+  --tag-focused-box-shadow: 0 0 0 2px #044dd2 inset;
+  --tag-focused-outline: none;
+  --tag-default-background-color: #f3f3f3;
+  --tag-default-font-color: #121212;
+  --tag-default-font-hover-color: rgba(18,18,18,0.4);
+  --tag-selected-background-color: #121212;
+  --tag-selected-font-color: #fff;
+  --tag-selected-font-hover-color: hsla(0,0%,100%,0.4);
+  --input-default-background-color: #f3f3f3;
+  --input-default-font-color: #121212;
+  --input-placeholder-background-color: #f3f3f3;
+  --input-placeholder-font-color: #666;
+  --input-focused-background-color: #f3f3f3;
+  --input-focused-border-color: #666;
+  --input-focused-font-color: #121212;
+  --input-invalid-background-color: #f3f3f3;
+  --input-disabled-background-color: rgba(18,18,18,0.15);
+  --input-disabled-font-color: #121212;
+  --toggle-focused-box-shadow: 0 0 0 2px #044dd2;
+  --toggle-disabled-opacity: 60%;
+  --toggle-body-width: 40px;
+  --toggle-body-height: 24px;
+  --toggle-body-border-radius: 16px;
+  --toggle-body-cursor: pointer;
+  --toggle-body-user-select: none;
+  --toggle-body-transition: all 0.2s;
+  --toggle-handle-height: 20px;
+  --toggle-handle-width: 20px;
+  --toggle-handle-border-radius: 50px;
+  --toggle-handle-left: 2px;
+  --toggle-handle-top: 2px;
+  --toggle-handle-z-index: 1;
+  --toggle-handle-transition: all 0.2s;
+  --toggle-icon-on-opacity: 0;
+  --toggle-icon-left: 50%;
+  --toggle-icon-top: 50%;
+  --toggle-icon-transform: translate(-50%,-50%);
+  --toggle-icon-transition: opacity 0.2s;
+  --toggle-on-body-color: #f50;
+  --toggle-on-body-hover-color: #f50;
+  --toggle-on-body-opacity: 1;
+  --toggle-on-body-transition: opacity 0.2s;
+  --toggle-on-handle-color: #fff;
+  --toggle-on-handle-hover-color: hsla(0,0%,100%,0.4);
+  --toggle-on-handle-left: 18px;
+  --toggle-on-icon-off-opacity: 0;
+  --toggle-on-icon-on-opacity: 1;
+  --toggle-off-body-color: #666;
+  --toggle-off-body-hover-color: #666;
+  --toggle-off-body-opacity: 0;
+  --toggle-off-handle-color: #fff;
+  --toggle-off-handle-hover-color: hsla(0,0%,100%,0.4);
+    }
+
+    .mui-j7qwjs,.mui-0 {
+        background: #fff;
+    }
+    
+    .bg-\[\#121212\] {
+        background-color: transparent !important;
+    }
+    
+    .queue__itemsHeight {
+  background-image: none !important;
+    }
+
+}
