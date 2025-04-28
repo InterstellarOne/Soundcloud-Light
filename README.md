@@ -1,3 +1,5 @@
+![Screenshot_20250422_153838](https://github.com/user-attachments/assets/c946cc00-37c8-43db-b990-8d4808840dbd)
+
 ## Installation
 ### Browser
 1. Install the browser extension Stylus. \
@@ -16,4 +18,3 @@
 6. Place the shortcut where you want it.
 
 
-![Screenshot_20250422_153838](https://github.com/user-attachments/assets/c946cc00-37c8-43db-b990-8d4808840dbd)
